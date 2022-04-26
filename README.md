@@ -1,56 +1,47 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
-# Project Name
-
-> Description the project.
-
-
+## Hello Rails Back-end
+> Back-end part for Hello-rails-react app
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- Ruby On Rails
+- PostgreSQL
 
-## Live Demo (if available)
-
-[Live Demo Link](https://livedemo.com)
-
+**Link to the front-end part [here](https://github.com/mohamedelshamy55/hello-react-front-end)**
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple example steps:
 
 ### Prerequisites
 
+* Ruby
+* Rails
+* RSpec-rails
+
 ### Setup
+
+1. In your terminal, `cd` to the directory where you want to copy this project.
+2. Still in your terminal, clone the repository by typing `git clone https://github.com/mohamedelshamy55/hello-rails-back-end.git`
+3. Run cd `hello-rails-back-end`
 
 ### Install
 
-### Usage
+* After completing the setup section, type `bundle install`
 
-### Run tests
+### Running the app
 
-### Deployment
+- Run `rails db:create:all` and `rails db:migrate`
+- Run `rails db:seed` to populate the database with some sample data.
+- Run `rails s` to start the server.
+- In your browser, go to http://localhost:3000.
 
+## Author
 
+👤 **Mohamed ELShamy**
 
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@mohamedelshamy55](https://github.com/mohamedelshamy55)
+- Twitter: [@moelshamy55](https://mobile.twitter.com/moelshamy55)
+- LinkedIn: [mohamedelshamy85](https://www.linkedin.com/in/mohamedelshamy85/)
 
 ## 🤝 Contributing
 
